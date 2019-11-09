@@ -14,6 +14,6 @@ class CommentsController < ApplicationController
         params.require(:comment).permit(:author_name, :body)
     end
 
-    redirect_to article_path(@comment.article)
+
 
 end
